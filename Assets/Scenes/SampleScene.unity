@@ -434,6 +434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveValue: {x: 0, y: 0}
   speed: 500
+  scoreText: {fileID: 0}
+  winText: {fileID: 0}
 --- !u!114 &32633722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,6 +450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveValue: {x: 0, y: 0}
   speed: 500
+  scoreText: {fileID: 0}
+  winText: {fileID: 0}
 --- !u!1 &72197585
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,15 +941,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.22
+      value: -3.08
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.83
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.69
+      value: 3.84
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1412,15 +1416,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.77
+      value: -0.96
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.42
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.08
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1745,15 +1749,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.129
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.014
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.963
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: 2074109549809576034, guid: 8c2fb73d2d26bcd469500b1eefb21565, type: 3}
       propertyPath: m_LocalRotation.w
